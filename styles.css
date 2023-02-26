@@ -1,0 +1,14 @@
+.table-button{
+    color:black;
+}
+.table-button:hover{
+    color: #FE9905;
+}
+.input-box-design{
+    border-color: #FE9905 !important;
+}
+
+::-webkit-input-placeholder{
+    color: #FE9905 !important;
+    opacity: 50% !important;
+}
