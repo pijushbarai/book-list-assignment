@@ -34,11 +34,25 @@
       <div class="col-lg-3"></div>
       <!-- book infomation input form start here -->
       <div class="col-lg-6 mt-3">
-        <div class="row text-warning">
-          <u>
+        <div class="row">
+          <div class="text-warning col-md-6">
+
             <h3>Enter book infomation</h3>
-          </u>
+
+          </div>
+
+          <div class="text-warning col-md-6 text-end mb-2">
+          <div class="d-grid gap-2 p-0 ">
+                <a href="index.php" class="btn btn-outline-warning " tabindex="-1" role="button" aria-disabled="true"><i class="bi bi-x-circle"></i> Cancel</a>
+                <!-- <button class="btn btn-outline-warning" type="button"><i class="bi bi-plus-circle"></i> Add new book</button> -->
+            </div>
+          </div>
+
+
+
         </div>
+
+
         <form action="addingBookHandler.php" method="POST">
           <div class="mb-3">
             <input type="text" class="form-control text-warning input-box-design p-2" name="title" placeholder="book title" required>
@@ -61,6 +75,8 @@
           </div>
         </form>
       </div>
+
+
       <!-- book infomation input form end here -->
       <div class="col-lg-3"></div>
     </div>
