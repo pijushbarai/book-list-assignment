@@ -108,7 +108,7 @@
                                 ?>
                             </td>
                             <td>
-                                <a href="#" class="table-icon">
+                                <a href="editBook.php?isbn=<?php echo $book['isbn']?>" class="table-icon">
                                     <i class="bi bi-pencil-square table-button"></i>
                                 </a>
                             </td>
